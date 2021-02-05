@@ -9,8 +9,8 @@
     "maintained node versions"
   ],
   "scripts": {
-    "start": "parcel src/index.html --out-dir docs",
-    "build": "parcel build src/index.html --out-dir docs --public-url ./"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "parcel-bundler": "^1.12.4",
@@ -18,3 +18,7 @@
     "firebase": "^8.2.5"
   }
 }
+
+
+//--out-dir docs
+//--out-dir docs --public-url ./
